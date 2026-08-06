@@ -1,0 +1,2 @@
+### Reflect and Choose
+According to my impact/effort matrix, *Is It AI?* seems to be the idea to prioritise most as it has a higher impact while requiring lower effort. *Lock In* and *Stop Scrolling* also have a high impact but require a lot more effort as well as skills that I do not have. *Diary App* and *Meditation Nation* are low effort but also low impact, meaning they 
