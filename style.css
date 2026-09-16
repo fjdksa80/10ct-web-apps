@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 100px 1fr 1fr;
     grid-template-rows: 100px calc(100vh - 100px);
     margin: 0;
 }
@@ -11,7 +11,9 @@
 
 .title {
     background-color: #d0d0d0;
-    border: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
     align-content: center;
     font-size: 50px;
     font-family: "Jost", sans-serif;
@@ -35,11 +37,28 @@
 
 .content {
     border: 1px solid #000000;
-    grid-column: 1 / span 2;
+    grid-column: 1 / span 3;
     overflow-y: auto;
     min-height: 0; 
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 80px;
+}
+
+.content h1 {
+    font-family: "Jost", sans-serif;
+}
+
+.content h2 {
+    font-family: "Jost", sans-serif;
+}
+
+.content h3 {
+    font-family: "Jost", sans-serif;
+}
+
+.content img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .links {
@@ -88,12 +107,28 @@
 }
 
 .nav {
-    display: inline-flex;
+    text-align: right;
+    align-content: center;
+    font-family: "Jost", sans-serif;
     font-size: 20px;
-    flex: 0 0 200px
+    background-color: #d0d0d0;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
 }
 
-.nav div {
+.flex {
+    flex: 0 0 200px;
+    display: inline-flex;
+}
+
+.flex div {
     background-color: #f1f1f1;
     margin: 20px;
+    padding: 10px;
+}
+
+.flex div a {
+    color: #000000;
+    text-decoration: none;
 }
