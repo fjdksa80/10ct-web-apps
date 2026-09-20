@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Is It AI?</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="images/logo.png">
+    </head>
+    <body onload="setTheme()">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" width="90">
+                </a>
+            </div>
+            <div class="title">
+                Is It AI?
+            </div>
+            <div class="nav">
+                <div class="flex">
+                    <div><a href="text.html">Text</a></div>
+                    <div><a href="images.html">Images</a></div>
+                    <div><a href="videos.html">Videos</a></div>
+                    <div><a href="audio.html">Audio</a></div>
+                </div>
+                <div class="button" onclick="changeTheme()">
+                    <img id="theme" src="images/moon.png" width="40">
+                </div>
+            </div>
+            <div class="content">
+                <h1>Identifying AI-Generated Audio</h1>
+                <h2>SynthID and Content Credentials</h2>
+                <p>
+                    Like <a href="images.html">images</a>, audio files can be checked for signs of being AI-generated through SynthID and
+                    <a href="https://verify.contentauthenticity.org/">Content Credentials</a>. To check for SynthID, ask Google Gemini if an audio file
+                    has SynthID watermarks. You can also verify OpenAI-generated audio with <a href="https://openai.com/research/verify/">this tool</a>.
+                </p>
+                <h2>Signs of AI-Synthesised Voice</h2>
+                <!--https://caniphish.com/blog/how-to-spot-ai-audio-->
+                <h3>Flat Emotion</h3>
+                <p>
+                    Humans naturally change the pitch and volume of our speech over a sentence. We emphasise certain words to create meaning.
+                    AI-generated voices often sound static with constant volume and pitch. If they do change pitch, it often sounds unnatural,
+                    as if it's changing in the wrong spots. AI-generated voices don't place emphasis in the right spots, sometimes they don't
+                    have emphasis at all.
+                </p>
+                <h3>Lack of Pauses and Filler Words</h3>
+                <p>
+                    When humans speak, we often pause or use filler words like "um" or "uh" while we think. AI-generated voices will not have these, 
+                    making it sound as though they are reading a script. While a person making the AI-generated voice could manually add in pauses,
+                    when the AI reads it, it will sound unnatural and forced.
+                </p>
+                <h3>Lack of Sound Blends</h3>
+                <p>
+                    In human speech, we often blend sounds together in the natural flow of speech. Phrases like "don't you" or "what are you"
+                    become "dontcha" and "whatcha". AI-generated voices rarely do this. Instead, it will sound every word out separately.
+                </p>
+                <h3>Same Delivery of Repeated Phrases</h3>
+                <p>
+                    When an AI-generated voice repeats a phrase, it will often use the same intonation and inflection both times, whereas a human
+                    would change it up, using different emphasis or tone.
+                </p>
+                <h3>Mispronouncing Poper Nouns</h3>
+                <p>
+                    AI-generated voices will often not know how to pronounce a word that isn't a common dictionary word. Things like proper nouns
+                    or even just more uncommon or specific words, AIs will not know how to pronounce and will take a guess based on how it is spelled.
+                </p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

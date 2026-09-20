@@ -3,8 +3,10 @@
 ## Divergent Thinking
 
 ### Mindmap
+![Mindmap](./images/mindmap.png)
 
 ### 6 Big Ideas
+![6 Big Ideas](./images/6%20big%20ideas.png)
 
 ## Convergent Thinking
 
@@ -45,9 +47,15 @@ Overall, it would seem that *Is It AI?* is the best option to go for.
 
 ## Explore Existing Ideas
 
+
 ## Secondary Research
 
 ## Primary Research
+[Google Form results](https://docs.google.com/spreadsheets/d/1a1ASSVnU0YJuBZFfTvHRfZ65nwDaUzAyby2CZQEEwVs/edit?usp=sharing)
+
+I also conducted one interview and 
+
+Based on these results, it seems that people generally have high confidence in their ability to identify AI-generated media and are rarely unable to tell whether a piece of media is AI-generated. This would suggest that my website idea doesn't have as high of an impact as I would have thought. However, the form was only completed by my friends, who use technology frequently, meaning that the target demographic for my website, i.e. people who don't use technology as frequently, may find it more useful than the people who completed the form. One must also consider that these results may be a product of survivorship bias.
 
 ## UI / UX Design
 
